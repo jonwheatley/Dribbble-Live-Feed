@@ -1,5 +1,5 @@
 Dribbblelive::Application.routes.draw do
 
-  resources :feed
+  resources :feeds
   
 end
