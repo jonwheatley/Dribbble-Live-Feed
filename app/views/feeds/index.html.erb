@@ -1,4 +1,4 @@
 <% @shot_pulled.shots.each do |shot| %>
 	Name: <%= shot.player.name %> <br />
-	Shot: <%= image_tag shot.image_url %>
+	<%= image_tag shot.image_url %> <br />
 <% end %>
