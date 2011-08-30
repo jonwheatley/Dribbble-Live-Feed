@@ -1,4 +1,36 @@
-<% @shot_pulled.shots.each do |shot| %>
-	Name: <%= shot.player.name %> <br />
-	<%= image_tag shot.image_url %> <br />
-<% end %>
+<div id="wrapper">
+  <div id="container">
+    <div id="header">
+      <div class="container">
+        <div id="basketball"></div>
+        <div class="title">
+          <h1>Play By Play</h1>
+          <h2>A live feed for dribbble</h2>
+        </div>
+      </div>
+    </div>
+    <div id="body">
+      <div class="shadow left"></div>
+      <ul id="carousel">
+				<% @shot_pulled.shots.each do |shot| %>
+					<li>
+	          <a href="<%= shot.url %>" class="preview" title="<%= shot.title %>"><img src="<%= shot.image_url %>" alt="Canyon Country iPad App is Live!"></a>
+	          <h3><%= shot.title %></h3>
+	          <p>by <a href="<%= shot.player.url %>" title=""><%= shot.player.name %></a></p>
+	        </li>
+				<% end %>
+      </ul>
+      <div class="shadow right"></div>
+    </div>
+    <div id="footer">
+      <div class="overlay">
+        <p class="powered">Powered by, &nbsp; But not affiliated to</p>
+        <p class="dribbble"><a href="http://dribbble.com" title="Dribbble">Dribbble</a></p>
+        <ul>
+					<li><a href="http://twitter.com/julek" title="">@julek</a></li>
+          <li><a href="http://twitter.com/jon" title="">@jon</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>

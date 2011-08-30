@@ -1,0 +1,192 @@
+@import "reset.css";
+@import "fonts.css";
+
+body {
+  font: normal 14px "HelveticaNeue", Helvetica, Arial, sans-serif;
+  background: #1a1a1a url(../images/carbonfibre.png);
+}
+
+#wrapper {
+  float: left;
+  width: 100%;
+  background: url(../images/fade-black-top.png) repeat-x top;
+}
+
+#container {
+  float: left;
+  width: 100%;
+  background: url(../images/basketball-fade.png) no-repeat 560px 30px;
+}
+
+#header {
+  float: left;
+  width: 100%; height: 208px;
+  background: url(../images/fade-white-top.png) repeat-x bottom;
+}
+
+  #header .container {
+    float: left;
+    padding-left: 100px;
+  }
+
+    #header .container #basketball {
+      float: left;
+      width: 160px; height: 0;
+      padding: 120px 0 0 0;
+      background: url(../images/basketball.png) no-repeat center bottom;
+    }
+    
+    #header .container .title {
+      float: left;
+      width: 100%; height: 75px;
+    }
+    
+      #header .container .title h1 {
+        float: left;
+        padding-left: 100px;
+        width: 200px; height: 0;
+        padding: 100px 0 0;
+        overflow: hidden;
+        background: url(../images/logo.png) no-repeat 2px 8px;
+      }
+      
+      #header .container .title h2 {
+        float: left;
+        font: normal 22px "LeagueGothic", sans-serif;
+        height: 40px; line-height: 40px;
+        padding-top: 7px;
+        text-transform: uppercase;
+        color: #6c6c6c;
+        letter-spacing: 3px;
+        text-shadow: rgba(0,0,0,0.8) 0px 0px 4px;
+      }
+
+#body {
+  float: left;
+  width: 100%; height: 478px;
+  overflow: hidden;
+  background: #121212 url(../images/carousel-bg.png) repeat-x;
+}
+
+  #body #carousel {
+    float: left;
+    width: 9999px; height: 508px;
+    padding-left: 100px;
+    padding-top: 70px;
+    color: #fff;
+    overflow-x: scroll;
+  }
+  
+    #body .shadow {
+      z-index: 100;
+      position: absolute;
+      width: 60px; height: 478px;
+    }
+    
+      #body .shadow.left {
+        left: 0;
+        background: url(../images/fade-black-left.png) no-repeat left;
+      }
+      
+      #body .shadow.right {
+        right: 0;
+        background: url(../images/fade-black-right.png) no-repeat right;
+      }
+  
+    #body #carousel li {
+      float: left;
+      width: 400px;
+      height: 412px;
+      margin-left: 50px;
+    }
+    
+      #body #carousel li:first-child {
+        margin-left: 0;
+      }
+      
+      #body #carousel li a.preview {
+        float: left;
+        width: 400px; height: 300px;
+        border-radius: 6px;
+        -moz-border-radius: 6px;
+        -webkit-border-radius: 6px;
+        overflow: hidden;
+        box-shadow: rgba(0,0,0,0.8) 0 0 6px;
+        -moz-box-shadow: rgba(0,0,0,0.8) 0 0 6px;
+        -webkit-box-shadow: rgba(0,0,0,0.8) 0 0 6px;
+      }
+      
+        #body #carousel li a.preview img {
+          border-radius: 6px;
+          -moz-border-radius: 6px;
+          -webkit-border-radius: 6px;
+        }
+        
+      #body #carousel li a {
+        color: #ea4c89;
+        text-decoration: none;
+      }
+      
+      #body #carousel li h3 {
+        float: left;
+        width: 100%; height: 30px;
+        padding-top: 18px;
+        text-align: center;
+        font: 500 20px "HelveticaNeue";
+        color: #fff;
+      }
+      
+      #body #carousel li p {
+        float: left;
+        width: 100%;
+        text-align: center;
+        color: #717171;
+      }
+        
+#footer {
+  float: left;
+  width: 100%;
+  background: url(../images/fade-white-bottom.png) repeat-x top;
+}
+
+  #footer .overlay {
+    float: left;
+    width: 800px; height: 190px;
+    padding-top: 40px;
+    padding-left: 100px;
+    background: url(../images/basketball-fade.png) no-repeat 150px -390px;
+  }
+
+  #footer .powered {
+    float: left;
+    width: 100%;
+    color: #7a7a7a;
+    font: normal 12pt "LeagueGothic";
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: rgba(0,0,0,0.7) 1px 1px 2px;
+  }
+  
+  #footer .dribbble {
+    float: left;
+    width: 200px; height: 0;
+    padding: 35px 0 0;
+    overflow: hidden;
+    background: url(../images/dribbble.png) no-repeat 0 10px;
+  }
+  
+  #footer ul {
+    float: left;
+    width: 100%;
+    padding-top: 20px;
+  }
+
+    #footer ul li {
+      padding-bottom: 10px;
+    }
+  
+    #footer ul li a {
+      color: #ea4c89;
+      text-decoration: none;
+      font: 500 14px "HelveticaNeue";
+    }

@@ -1,0 +1,82 @@
+@font-face {
+    font-family: 'LeagueGothic';
+    src: url('../fonts/leaguegothic/league_gothic-webfont.eot');
+    src: url('../fonts/leaguegothic/league_gothic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/leaguegothic/league_gothic-webfont.woff') format('woff'),
+         url('../fonts/leaguegothic/league_gothic-webfont.ttf') format('truetype'),
+         url('../fonts/leaguegothic/league_gothic-webfont.svg#LeagueGothicRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*
+#
+#	HELVETICA NEUE
+#
+*/
+
+@font-face {
+    font-family: 'HelveticaNeue';
+    src: url('../fonts/helveticaneue/helveticaneueltcom-bd-webfont.eot');
+    src: url('../fonts/helveticaneue/helveticaneueltcom-bd-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/helveticaneue/helveticaneueltcom-bd-webfont.woff') format('woff'),
+         url('../fonts/helveticaneue/helveticaneueltcom-bd-webfont.ttf') format('truetype'),
+         url('../fonts/helveticaneue/helveticaneueltcom-bd-webfont.svg#HelveticaNeueLTCom75Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HelveticaNeue';
+    src: url('../fonts/helveticaneue/helveticaneueltcom-bdit-webfont.eot');
+    src: url('../fonts/helveticaneue/helveticaneueltcom-bdit-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/helveticaneue/helveticaneueltcom-bdit-webfont.woff') format('woff'),
+         url('../fonts/helveticaneue/helveticaneueltcom-bdit-webfont.ttf') format('truetype'),
+         url('../fonts/helveticaneue/helveticaneueltcom-bdit-webfont.svg#HelveticaNeueLTCom76BdIt') format('svg');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'HelveticaNeue';
+    src: url('../fonts/helveticaneue/helveticaneueltcom-it-webfont.eot');
+    src: url('../fonts/helveticaneue/helveticaneueltcom-it-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/helveticaneue/helveticaneueltcom-it-webfont.woff') format('woff'),
+         url('../fonts/helveticaneue/helveticaneueltcom-it-webfont.ttf') format('truetype'),
+         url('../fonts/helveticaneue/helveticaneueltcom-it-webfont.svg#HelveticaNeueLTCom56Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'HelveticaNeue';
+    src: url('../fonts/helveticaneue/helveticaneueltcom-md-webfont.eot');
+    src: url('../fonts/helveticaneue/helveticaneueltcom-md-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/helveticaneue/helveticaneueltcom-md-webfont.woff') format('woff'),
+         url('../fonts/helveticaneue/helveticaneueltcom-md-webfont.ttf') format('truetype'),
+         url('../fonts/helveticaneue/helveticaneueltcom-md-webfont.svg#HelveticaNeueLTCom65Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HelveticaNeue';
+    src: url('../fonts/helveticaneue/helveticaneueltcom-mdit-webfont.eot');
+    src: url('../fonts/helveticaneue/helveticaneueltcom-mdit-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/helveticaneue/helveticaneueltcom-mdit-webfont.woff') format('woff'),
+         url('../fonts/helveticaneue/helveticaneueltcom-mdit-webfont.ttf') format('truetype'),
+         url('../fonts/helveticaneue/helveticaneueltcom-mdit-webfont.svg#HelveticaNeueLTCom66MdIt') format('svg');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'HelveticaNeue';
+    src: url('../fonts/helveticaneue/helveticaneueltcom-roman-webfont.eot');
+    src: url('../fonts/helveticaneue/helveticaneueltcom-roman-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/helveticaneue/helveticaneueltcom-roman-webfont.woff') format('woff'),
+         url('../fonts/helveticaneue/helveticaneueltcom-roman-webfont.ttf') format('truetype'),
+         url('../fonts/helveticaneue/helveticaneueltcom-roman-webfont.svg#HelveticaNeueLTCom55Roman') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
