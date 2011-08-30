@@ -11,6 +11,8 @@ class FeedsController < ApplicationController
     convert_to_json = JSON::parse(shot_pull)
     @shot_pulled = Hashie::Mash.new(convert_to_json)
     
+    render "index"
+    
   end
   
 end
