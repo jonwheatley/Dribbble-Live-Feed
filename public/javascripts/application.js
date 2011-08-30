@@ -4,11 +4,11 @@
 
 $(function() {
   if ($("body").length > 0) {
-    setTimeout(refreshpage, 5000);
+    setTimeout(refreshpage, 10000);
   }
 });
 
 function refreshpage () {
   $.getScript("/feeds.js?")
-  setTimeout(refreshpage, 5000);
+  setTimeout(refreshpage, 10000);
 }
